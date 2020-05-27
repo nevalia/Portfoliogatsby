@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_description_descs",
+  "info": {
+    "name": "desc",
+    "icon": "cloud-download-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

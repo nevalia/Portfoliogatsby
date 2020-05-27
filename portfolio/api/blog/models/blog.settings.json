@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "blog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Blog": {
+      "type": "string",
+      "required": true
+    },
+    "Immobilier": {
+      "type": "string",
+      "required": true
+    },
+    "Forum": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.desc",
+      "required": true
+    }
+  }
+}

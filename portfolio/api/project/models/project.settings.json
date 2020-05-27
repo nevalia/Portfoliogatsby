@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "socialmedia": {
+      "type": "string",
+      "required": true
+    },
+    "portfolio": {
+      "type": "string"
+    },
+    "Solitaire": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.desc",
+      "required": true
+    }
+  }
+}
