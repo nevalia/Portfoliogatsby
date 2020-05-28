@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-api",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -27,7 +27,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "53d02a9e-ab40-4917-8b12-0113e00cee7a"
+    "uuid": "34e8d7ee-06f9-4bb1-808f-ef7bef85118f"
   },
   "engines": {
     "node": ">=10.0.0",
