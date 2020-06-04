@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar"
 import Footer from "./Footer"
 const Layout = ({ children }) => {
   const[isOpen,setIsOpen] = React.useState(false);
-  const toggleSidebar=()=>{
+  const toggleSidebar=  ()  =>  {
     setIsOpen(!isOpen)
   }
   return (

@@ -11,8 +11,9 @@ module.exports = {
     author: "@webdev",
     twitterUsername: "@john_smilga",
     image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    siteUrl: "https://portfolio-gatsby-strapi.netlify.app",
   },
+  
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -36,6 +37,21 @@ module.exports = {
       },
     },
     
-    
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Oswald`,
+            subsets: [`latin`],
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    }
   ],
+  
 }
