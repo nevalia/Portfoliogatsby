@@ -6,10 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
-    description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
+    title: "Gatsby Strapi Portfolio",
+    description: "This is My Portfolio Site",
+    author: "@portfolio",
+    twitterUsername: "@Miihouu",
     image: "/twitter-img.png",
     siteUrl: "https://portfolio-gatsby-strapi.netlify.app",
   },
